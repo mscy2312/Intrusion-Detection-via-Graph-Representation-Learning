@@ -1,0 +1,535 @@
+{
+  "attacks_by_host": {
+    "Windows 2": [
+      {
+        "id": "e5-2019-05-08-1258-windows2-drakon-sysinfo",
+        "title": "Firefox Drakon APT Sysinfo",
+        "start_iso": "2019-05-08T12:58:00+00:00",
+        "end_iso": "2019-05-08T13:08:00+00:00",
+        "start_ns": 1557320280000000000,
+        "end_ns": 1557320880000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-09-1534-windows2-bits-micro-apt",
+        "title": "Firefox BITS Micro APT",
+        "start_iso": "2019-05-09T15:34:00+00:00",
+        "end_iso": "2019-05-09T15:52:00+00:00",
+        "start_ns": 1557416040000000000,
+        "end_ns": 1557417120000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "Windows 1": [
+      {
+        "id": "e5-2019-05-08-1437-windows1-drakon-copykatz-1",
+        "title": "Firefox Drakon APT Elevate Copykatz 1",
+        "start_iso": "2019-05-08T14:37:00+00:00",
+        "end_iso": "2019-05-08T14:46:00+00:00",
+        "start_ns": 1557326220000000000,
+        "end_ns": 1557326760000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-08-1514-windows1-drakon-copykatz-2",
+        "title": "Firefox Drakon APT Elevate Copykatz 2",
+        "start_iso": "2019-05-08T15:14:00+00:00",
+        "end_iso": "2019-05-08T15:24:00+00:00",
+        "start_ns": 1557328440000000000,
+        "end_ns": 1557329040000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-08-1541-windows1-bits-micro-apt",
+        "title": "Firefox BITS Micro APT",
+        "start_iso": "2019-05-08T15:41:00+00:00",
+        "end_iso": "2019-05-08T16:00:00+00:00",
+        "start_ns": 1557330060000000000,
+        "end_ns": 1557331200000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "Ubuntu 1": [
+      {
+        "id": "e5-2019-05-08-1454-ubuntu1-ssh-binfmt-elevate",
+        "title": "SSH BinFmt-Elevate",
+        "start_iso": "2019-05-08T14:54:00+00:00",
+        "end_iso": "2019-05-08T15:11:00+00:00",
+        "start_ns": 1557327240000000000,
+        "end_ns": 1557328260000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-09-1435-ubuntu1-drakon-elevate",
+        "title": "Firefox Drakon APT Elevate",
+        "start_iso": "2019-05-09T14:35:00+00:00",
+        "end_iso": "2019-05-09T14:43:00+00:00",
+        "start_ns": 1557412500000000000,
+        "end_ns": 1557412980000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "FiveDirections 2": [
+      {
+        "id": "e5-2019-05-09-1326-fivedirections2-drakon-copykatz-sysinfo",
+        "title": "Firefox Drakon APT Elevate Copykatz Sysinfo",
+        "start_iso": "2019-05-09T13:26:00+00:00",
+        "end_iso": "2019-05-09T13:56:00+00:00",
+        "start_ns": 1557408360000000000,
+        "end_ns": 1557410160000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-15-1315-fivedirections2-bits-micro-apt",
+        "title": "Firefox BITS Micro APT",
+        "start_iso": "2019-05-15T13:15:00+00:00",
+        "end_iso": "2019-05-15T13:31:00+00:00",
+        "start_ns": 1557926100000000000,
+        "end_ns": 1557927060000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "MARPLE 1": [
+      {
+        "id": "e5-2019-05-09-1357-marple1-drakon",
+        "title": "Firefox Drakon APT",
+        "start_iso": "2019-05-09T13:57:00+00:00",
+        "end_iso": "2019-05-09T14:02:00+00:00",
+        "start_ns": 1557410220000000000,
+        "end_ns": 1557410520000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1301-marple1-firefox-dns-drakon-apt-1",
+        "title": "Firefox DNS Drakon APT",
+        "start_iso": "2019-05-17T13:00:00+00:00",
+        "end_iso": "2019-05-17T13:05:00+00:00",
+        "start_ns": 1558098000000000000,
+        "end_ns": 1558098300000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1301-marple1-firefox-dns-drakon-apt-2",
+        "title": "Firefox DNS Drakon APT",
+        "start_iso": "2019-05-17T13:26:00+00:00",
+        "end_iso": "2019-05-17T13:29:00+00:00",
+        "start_ns": 1558099560000000000,
+        "end_ns": 1558099740000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "UNKNOWN/MULTIPLE": [
+      {
+        "id": "e5-2019-05-10-1026-multiples-nmap-ssh-scp-1",
+        "title": "Nmap SSH SCP",
+        "start_iso": "2019-05-10T10:26:00+00:00",
+        "end_iso": "2019-05-10T10:48:00+00:00",
+        "start_ns": 1557483960000000000,
+        "end_ns": 1557485280000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-10-1026-multiples-nmap-ssh-scp-2",
+        "title": "Nmap SSH SCP",
+        "start_iso": "2019-05-10T13:44:00+00:00",
+        "end_iso": "2019-05-10T13:47:00+00:00",
+        "start_ns": 1557495840000000000,
+        "end_ns": 1557496020000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-10-1026-multiples-nmap-ssh-scp-3",
+        "title": "Nmap SSH SCP",
+        "start_iso": "2019-05-10T14:22:00+00:00",
+        "end_iso": "2019-05-10T14:23:00+00:00",
+        "start_ns": 1557498120000000000,
+        "end_ns": 1557498180000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-10-1026-multiples-nmap-ssh-scp-4",
+        "title": "Nmap SSH SCP",
+        "start_iso": "2019-05-10T14:42:00+00:00",
+        "end_iso": "2019-05-10T14:46:00+00:00",
+        "start_ns": 1557499320000000000,
+        "end_ns": 1557499560000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-10-1026-multiples-nmap-ssh-scp-5",
+        "title": "Nmap SSH SCP",
+        "start_iso": "2019-05-10T14:54:00+00:00",
+        "end_iso": "2019-05-10T15:11:00+00:00",
+        "start_ns": 1557500040000000000,
+        "end_ns": 1557501060000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "Android": [
+      {
+        "id": "e5-2019-05-13-1026-clearscope-metasploit-apk",
+        "title": "Metasploit APK (Failed)",
+        "start_iso": "2019-05-13T04:36:00+00:00",
+        "end_iso": "2019-05-13T04:37:00+00:00",
+        "start_ns": 1557722160000000000,
+        "end_ns": 1557722220000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "TRACE 2": [
+      {
+        "id": "e5-2019-05-14-1008-trace2-drakon-elevate-inject-1",
+        "title": "Firefox Drakon APT Elevate Inject",
+        "start_iso": "2019-05-14T10:18:00+00:00",
+        "end_iso": "2019-05-14T10:28:00+00:00",
+        "start_ns": 1557829080000000000,
+        "end_ns": 1557829680000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-14-1008-trace2-drakon-elevate-inject-2",
+        "title": "Firefox Drakon APT Elevate Inject",
+        "start_iso": "2019-05-14T13:39:00+00:00",
+        "end_iso": "2019-05-14T13:44:00+00:00",
+        "start_ns": 1557841140000000000,
+        "end_ns": 1557841440000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "THEIA": [
+      {
+        "id": "e5-2019-05-14-1145-theia-drakon-failed-1",
+        "title": "Firefox Drakon APT (Failed)",
+        "start_iso": "2019-05-14T16:09:00+00:00",
+        "end_iso": "2019-05-14T16:10:00+00:00",
+        "start_ns": 1557850140000000000,
+        "end_ns": 1557850200000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-14-1145-theia-drakon-failed-2",
+        "title": "Firefox Drakon APT (Failed)",
+        "start_iso": "2019-05-14T16:43:00+00:00",
+        "end_iso": "2019-05-14T16:44:00+00:00",
+        "start_ns": 1557852180000000000,
+        "end_ns": 1557852240000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "ClearScope": [
+      {
+        "id": "e5-2019-05-15-1414-clearscope-barephone-micro-apt-failed",
+        "title": "Barephone Micro APT (Failed)",
+        "start_iso": "2019-05-15T14:35:00+00:00",
+        "end_iso": "2019-05-15T14:42:00+00:00",
+        "start_ns": 1557930900000000000,
+        "end_ns": 1557931320000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "THEIA 1": [
+      {
+        "id": "e5-2019-05-15-1448-theia1-drakon-binfmt-elevate-inject",
+        "title": "Firefox Drakon APT BinFmt-Elevate Inject",
+        "start_iso": "2019-05-15T14:48:00+00:00",
+        "end_iso": "2019-05-15T15:07:00+00:00",
+        "start_ns": 1557931680000000000,
+        "end_ns": 1557932820000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "ClearScope 2": [
+      {
+        "id": "e5-2019-05-15-1539-clearscope2-appstarter-apk-micro-apt-elevate",
+        "title": "Appstarter APK Micro APT Elevate",
+        "start_iso": "2019-05-15T15:39:00+00:00",
+        "end_iso": "2019-05-15T16:18:00+00:00",
+        "start_ns": 1557934740000000000,
+        "end_ns": 1557937080000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1150-clearscope2-drakon",
+        "title": "Firefox Drakon APT",
+        "start_iso": "2019-05-17T11:50:00+00:00",
+        "end_iso": "2019-05-17T11:58:00+00:00",
+        "start_ns": 1558093800000000000,
+        "end_ns": 1558094280000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1543-clearscope2-lockwatch-apk-java-apt",
+        "title": "Lockwatch APK Java APT",
+        "start_iso": "2019-05-17T15:49:00+00:00",
+        "end_iso": "2019-05-17T15:52:00+00:00",
+        "start_ns": 1558108140000000000,
+        "end_ns": 1558108320000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "CADETS 1,2": [
+      {
+        "id": "e5-2019-05-16-0932-cadets12-nginx-drakon-apt-1",
+        "title": "Nginx Drakon APT",
+        "start_iso": "2019-05-16T09:32:00+00:00",
+        "end_iso": "2019-05-16T09:36:00+00:00",
+        "start_ns": 1557999120000000000,
+        "end_ns": 1557999360000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1016-cadets12-nginx-drakon-apt-1",
+        "title": "Nginx Drakon APT",
+        "start_iso": "2019-05-17T10:16:00+00:00",
+        "end_iso": "2019-05-17T10:19:00+00:00",
+        "start_ns": 1558088160000000000,
+        "end_ns": 1558088340000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1016-cadets12-nginx-drakon-apt-2",
+        "title": "Nginx Drakon APT",
+        "start_iso": "2019-05-17T10:25:00+00:00",
+        "end_iso": "2019-05-17T10:26:00+00:00",
+        "start_ns": 1558088700000000000,
+        "end_ns": 1558088760000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1016-cadets12-nginx-drakon-apt-3",
+        "title": "Nginx Drakon APT",
+        "start_iso": "2019-05-17T10:31:00+00:00",
+        "end_iso": "2019-05-17T10:33:00+00:00",
+        "start_ns": 1558089060000000000,
+        "end_ns": 1558089180000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "FiveDirections 1": [
+      {
+        "id": "e5-2019-05-16-1103-fivedirections1-bits-verifier-drakon-filefilter-elevate-1",
+        "title": "Firefox BITS Verifier Drakon APT",
+        "start_iso": "2019-05-16T14:24:00+00:00",
+        "end_iso": "2019-05-16T14:29:00+00:00",
+        "start_ns": 1558016640000000000,
+        "end_ns": 1558016940000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-16-1103-fivedirections1-bits-verifier-drakon-filefilter-elevate-2",
+        "title": "Firefox BITS Verifier Drakon APT",
+        "start_iso": "2019-05-16T14:38:00+00:00",
+        "end_iso": "2019-05-16T14:39:00+00:00",
+        "start_ns": 1558017480000000000,
+        "end_ns": 1558017540000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-16-1103-fivedirections1-bits-verifier-drakon-filefilter-elevate-3",
+        "title": "Firefox BITS Verifier Drakon APT",
+        "start_iso": "2019-05-16T14:43:00+00:00",
+        "end_iso": "2019-05-16T14:44:00+00:00",
+        "start_ns": 1558017780000000000,
+        "end_ns": 1558017840000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-16-1103-fivedirections1-bits-verifier-drakon-filefilter-elevate-4",
+        "title": "Firefox BITS Verifier Drakon APT",
+        "start_iso": "2019-05-16T14:48:00+00:00",
+        "end_iso": "2019-05-16T14:49:00+00:00",
+        "start_ns": 1558018080000000000,
+        "end_ns": 1558018140000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-16-1103-fivedirections1-bits-verifier-drakon-filefilter-elevate-5",
+        "title": "Firefox BITS Verifier Drakon APT",
+        "start_iso": "2019-05-16T15:03:00+00:00",
+        "end_iso": "2019-05-16T15:04:00+00:00",
+        "start_ns": 1558018980000000000,
+        "end_ns": 1558019040000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1611-fivedirections1-verifier-drakon-filefilter-elevate",
+        "title": "Verifier Drakon APT FileFilter-Elevate (Cont)",
+        "start_iso": "2019-05-17T16:11:00+00:00",
+        "end_iso": "2019-05-17T16:16:00+00:00",
+        "start_ns": 1558109460000000000,
+        "end_ns": 1558109760000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "TRACE 1,2": [
+      {
+        "id": "e5-2019-05-17-0905-trace12-azazel-apt-failed",
+        "title": "Azazel APT (Failed)",
+        "start_iso": "2019-05-17T09:05:00+00:00",
+        "end_iso": "2019-05-17T09:38:00+00:00",
+        "start_ns": 1558083900000000000,
+        "end_ns": 1558085880000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "FiveDirections 3": [
+      {
+        "id": "e5-2019-05-17-1226-fivedirections3-firefox-dns-drakon-filefilter-elevate",
+        "title": "Firefox DNS Drakon APT FileFilter-Elevate",
+        "start_iso": "2019-05-17T12:47:00+00:00",
+        "end_iso": "2019-05-17T12:56:00+00:00",
+        "start_ns": 1558097220000000000,
+        "end_ns": 1558097760000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "ClearScope 1,2": [
+      {
+        "id": "e5-2019-05-17-1427-clearscope12-myapp-and-appstarter-micro-apt-failed-1",
+        "title": "MyApp APK AppStarter APK Micro APT (Failed)",
+        "start_iso": "2019-05-17T15:11:00+00:00",
+        "end_iso": "2019-05-17T15:11:00+00:00",
+        "start_ns": 1558105860000000000,
+        "end_ns": 1558105860000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1427-clearscope12-myapp-and-appstarter-micro-apt-failed-2",
+        "title": "MyApp APK AppStarter APK Micro APT (Failed)",
+        "start_iso": "2019-05-17T15:33:00+00:00",
+        "end_iso": "2019-05-17T15:35:00+00:00",
+        "start_ns": 1558107180000000000,
+        "end_ns": 1558107300000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1427-clearscope12-myapp-and-appstarter-micro-apt-failed-3",
+        "title": "MyApp APK AppStarter APK Micro APT (Failed)",
+        "start_iso": "2019-05-17T16:04:00+00:00",
+        "end_iso": "2019-05-17T16:04:00+00:00",
+        "start_ns": 1558109040000000000,
+        "end_ns": 1558109040000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1427-clearscope12-myapp-and-appstarter-micro-apt-failed-4",
+        "title": "MyApp APK AppStarter APK Micro APT (Failed)",
+        "start_iso": "2019-05-17T16:36:00+00:00",
+        "end_iso": "2019-05-17T16:36:00+00:00",
+        "start_ns": 1558110960000000000,
+        "end_ns": 1558110960000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-1427-clearscope12-myapp-and-appstarter-micro-apt-failed-5",
+        "title": "MyApp APK AppStarter APK Micro APT (Failed)",
+        "start_iso": "2019-05-17T16:39:00+00:00",
+        "end_iso": "2019-05-17T16:39:00+00:00",
+        "start_ns": 1558111140000000000,
+        "end_ns": 1558111140000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ],
+    "ClearScope 1": [
+      {
+        "id": "e5-2019-05-17-1620-clearscope1-tester-micro-apt-binfmt-elevate",
+        "title": "Tester Micro APT BinFmt-Elevate",
+        "start_iso": "2019-05-17T16:21:00+00:00",
+        "end_iso": "2019-05-17T16:27:00+00:00",
+        "start_ns": 1558110060000000000,
+        "end_ns": 1558110420000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ]
+  }
+}
