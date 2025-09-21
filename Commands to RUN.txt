@@ -1,0 +1,27 @@
+Convert .bin files to .json, 4 at a time
+python -u ".\convert_folder_parallel.py" --folder "C:\Marple Dataset" --workers 4
+
+Process 1 file at a time to convert .json to .parquet
+python preprocess_cdm_time_only.py --input "D:\Dataset\Engagement 5 Maple Dataset\JSON files\*.json" --attacks attack_windows_e5_iso_and_ns_cleaned.json --output-dir ".\out_parquet_time_only" --compression zstd --batch-size 200000 --debug
+
+Process multiple (--workers) files at a time to convert .json to .parquet
+python preprocess_cdm_time_only_fast.py --input "D:\Dataset\Engagement 5 Maple Dataset\JSON files\*.json" --attacks attack_windows_e5_iso_and_ns_cleaned.json --output-dir ".\out_parquet_time_only" --compression snappy --batch-size 800000 --row-group-size 800000 --workers 6 --progress-every 1000000
+
+Save Benign Activity Windows to CSV File
+python select_benign_windows.py --events-dir ".\out_parquet_time_only\events" --window-min 10 --per-hour 1 --out-csv ".\benign_windows_10m.csv"
+
+Make graphs based on time windows with malicious and benign activities in them.
+python make_time_window_graphs.py
+
+Make 300 time windows for 10-mint --> .pt file (Tensor)
+python make_multi_windows_tensors.py --parquet-dir .\out_parquet_time_only --out-dir .\win_tensors_balanced --gt-json .\attack_windows_e5_iso_and_ns_cleaned.json --target-mal 100 --target-benign 200 --edges-per-window 100000 --window-min 10 --shuffle-files
+
+Make 300 time windows for 10-mint (Parallel) --> .pt file (Tensor)
+python "3.1. make_multi_windows_tensors_parallel.py"
+
+
+Analyze Single .pt file
+python analyze_pt_single_file.py --file /path/to/file.pt
+
+Analyze Whole .pt folder
+python analyze_pt_folder.py --dir /path/to/pt_folder
