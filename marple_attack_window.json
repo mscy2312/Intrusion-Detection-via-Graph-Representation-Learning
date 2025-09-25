@@ -1,0 +1,61 @@
+{
+  "attacks_by_host": {
+    "MARPLE 1": [
+      {
+        "id": "e5-2019-05-09-marple1-drakon-1357-part-1",
+        "title": "Firefox Drakon APT",
+        "start_iso": "2019-05-09T13:57Z",
+        "end_iso": "2019-05-09T14:00Z",
+        "start_ns": 1557410220000000000,
+        "end_ns": 1557410400000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-09-marple1-drakon-1401-part-2",
+        "title": "Firefox Drakon APT",
+        "start_iso": "2019-05-09T14:01Z",
+        "end_iso": "2019-05-09T14:03Z",
+        "start_ns": 1557410460000000000,
+        "end_ns": 1557410580000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-marple1-firefox-dns-drakon-1300-part-1",
+        "title": "Firefox DNS Drakon APT",
+        "start_iso": "2019-05-17T13:00Z",
+        "end_iso": "2019-05-17T13:02Z",
+        "start_ns": 1558098000000000000,
+        "end_ns": 1558098120000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-marple1-firefox-dns-drakon-1304-part-2",
+        "title": "Firefox DNS Drakon APT",
+        "start_iso": "2019-05-17T13:04Z",
+        "end_iso": "2019-05-17T13:06Z",
+        "start_ns": 1558098240000000000,
+        "end_ns": 1558098360000000000,
+        "labels": {
+          "malicious": true
+        }
+      },
+      {
+        "id": "e5-2019-05-17-marple1-firefox-dns-drakon-1326",
+        "title": "Firefox DNS Drakon APT",
+        "start_iso": "2019-05-17T13:26Z",
+        "end_iso": "2019-05-17T13:29Z",
+        "start_ns": 1558099560000000000,
+        "end_ns": 1558099740000000000,
+        "labels": {
+          "malicious": true
+        }
+      }
+    ]
+  }
+}
