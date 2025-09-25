@@ -1,0 +1,172 @@
+{
+  "num_graphs": 946,
+  "num_malicious": 5,
+  "num_benign": 941,
+  "total_nodes_sum": 9986684,
+  "total_edges_sum": 16112189,
+  "avg_nodes_per_graph": 10556.748414376321,
+  "avg_edges_per_graph": 17031.91226215645,
+  "avg_degree_overall": 1.6312221011200545,
+  "per_node_type_totals": {
+    "subject": 2315228,
+    "fileobject": 7494343,
+    "netflow": 177113
+  },
+  "per_rel_edge_totals": {
+    "('subject', 'events', 'fileobject')": 11853231,
+    "('subject', 'events', 'netflow')": 254815,
+    "('subject', 'events', 'subject')": 3076057,
+    "('fileobject', 'events', 'subject')": 877676,
+    "('netflow', 'events', 'subject')": 50410
+  },
+  "top_edge_type_ids": [
+    [
+      2,
+      5683642
+    ],
+    [
+      7,
+      4526667
+    ],
+    [
+      5,
+      1851782
+    ],
+    [
+      3,
+      1636989
+    ],
+    [
+      8,
+      1374856
+    ],
+    [
+      6,
+      418721
+    ],
+    [
+      13,
+      283798
+    ],
+    [
+      9,
+      133660
+    ],
+    [
+      11,
+      69799
+    ],
+    [
+      4,
+      57840
+    ],
+    [
+      0,
+      26831
+    ],
+    [
+      12,
+      26787
+    ],
+    [
+      1,
+      12457
+    ],
+    [
+      10,
+      8360
+    ]
+  ],
+  "time_summary": {
+    "total_load_time_sec": 18.666,
+    "avg_load_time_per_file_sec": 0.02
+  },
+  "feature_schema": {
+    "node": {
+      "subject": {
+        "dim": 38,
+        "layout": [
+          [
+            "has_parent",
+            1
+          ],
+          [
+            "start_pos_in_window",
+            1
+          ],
+          [
+            "cmdline_hash_sketch",
+            32
+          ],
+          [
+            "cid_mod8",
+            1
+          ],
+          [
+            "deg_in,deg_out,deg_tot",
+            3
+          ]
+        ],
+        "notes": "start_pos\u2208[0,1] if startTimestampNanos falls inside the window; degrees are computed after per-node cap trimming."
+      },
+      "fileobject": {
+        "dim": 4,
+        "layout": [
+          [
+            "file_type_code",
+            1
+          ],
+          [
+            "deg_in,deg_out,deg_tot",
+            3
+          ]
+        ],
+        "notes": "file_type_code is a categorical encoding; raw file_type values included in meta.file_raw."
+      },
+      "netflow": {
+        "dim": 8,
+        "layout": [
+          [
+            "localAddress_num, localPort, remoteAddress_num, remotePort, ipProtocol",
+            5
+          ],
+          [
+            "deg_in,deg_out,deg_tot",
+            3
+          ]
+        ],
+        "notes": "Addresses encoded numerically; raw values included in meta.netflow_raw."
+      }
+    },
+    "edge": {
+      "dim": 6,
+      "layout": [
+        [
+          "edge_type_id",
+          1
+        ],
+        [
+          "count",
+          1
+        ],
+        [
+          "span_norm",
+          1
+        ],
+        [
+          "pos_first",
+          1
+        ],
+        [
+          "log1p_size_sum",
+          1
+        ],
+        [
+          "log1p_size_max",
+          1
+        ]
+      ],
+      "notes": "edge_type_id maps to event types, but names were not stored; per-node cap keeps at most one edge per (node, direction, event_type)."
+    }
+  }
+}
